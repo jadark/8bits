@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = 'utf-8'/>
+	<title>8 Bits</title>
+	<!-- Para fuentes pixel-->
+	<script src="specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="css/fuentePixel.css" type="text/css" charset="utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="css/normalizr.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src='js/jquery-1.9.0.min.js'></script>
+	<script type="text/javascript" src='js/greensock/TweenMax.min.js'></script>
+	<script type="text/javascript" src='js/greensock/easing/EasePack.min.js'></script>
+	<script type="text/javascript" src='js/jquery.timer.js'></script>
+	<script type="text/javascript" src='js/createJs/createjs-2013.05.14.min.js'></script>
+	<script type="text/javascript" src='js/loader.js'></script>
+	<script type="text/javascript" src='js/main.js'></script>
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+</head>
+<body>
+	
+
+<section class="cargador">
+	<div class="logoCargador">
+		<img src="img/logoCargador.png">
+	</div>
+	<div class="baseBarrita">
+		<div class="baseCeleste"></div>
+		<div class="barrita"></div>
+	</div>
+	
+	<span></span>
+	
+</section>
+<section class="wrapper">
+
+	<div class="procesandobg"></div>
+	<div class="box_lightbox">
+		<a class="close_modal" href="#"><img src="img/bt_cerrar_lightbox.jpg" alt=""></a>
+		<div class="cont_text">
+			<img class="title" src="img/title_lightbox.jpg" alt="">
+			<div class="txt_scroll">
+				<p>Se informa que los datos personales proporcionados a ESAN quedan incorporados al banco de datos de clientes de ESAN. ESAN utilizará dicha información para efectos de la gestión de los productos y/o servicios solicitados y/o contratados (incluyendo procesamiento de datos, formalizaciones contractuales, cobro de deudas, y remisión de correspondencia, entre otros), la misma que podrá ser realizada a través de terceros.</p>
+				<p>Asimismo, el titular de los datos personales autoriza a ESAN a utilizar sus datos personales, incluyendo datos sensibles, que hubieran sido proporcionados directamente a ESAN, aquellos que pudieran encontrarse en fuentes accesibles para el público o los que hayan sido obtenidos de terceros; para tratamientos que supongan desarrollo de acciones comerciales, la remisión (vía medio físico, electrónico o telefónico) de publicidad, información u ofertas (personalizadas o generales)  de productos y/o servicios de ESAN.</p>
+				<p>Se informa al titular de los datos personales, que puede revocar la autorización para el tratamiento de sus datos personales en cualquier momento, de conformidad con lo previsto en la Ley de Protección de Datos Personales (Ley No. 29733) y su Reglamento (Decreto Supremo No. 003-2013-JUS). Para ejercer este derecho, o cualquier otro previsto en dichas normas, el titular de datos personales podrá presentar su solicitud en cualquiera de las sucursales de ESAN.</p>
+			</div>
+		</div>
+		<div class="boton activeOff" id="bt_siguiente">
+			<div class="base">
+				<img src="img/botonSiguiente.png">
+			</div>
+			<div class="over">
+				<img src="img/botonSiguienteOver.png">
+			</div>
+		</div>
+
+	</div>
+	<div class="brillo">
+		<img src="img/brillo.png">
+	</div>
+	<div class="nubes">
+		<div class="nube1"><img src="img/nube1.png"></div>
+		<div class="nube2"><img src="img/nube2.png"></div>
+		<div class="nube3"><img src="img/nube1.png"></div>
+		<div class="nube4"><img src="img/nube2.png"></div>
+	</div>
+	<div class="avioncito">
+		<img src="img/avioncito.png">
+	</div>
+	<div class="grass">
+		<img src="img/grassHome.png">
+	</div>
+	<div class="layout">
+		<div class="logo">
+			<img src="img/logoHome.png">
+		</div>
+		<p class="slogan">
+			<img src="img/slogan.png">
+		</p>
+		<div class="boton activeOff" id="botonJuegaHome">
+			<div class="base">
+				<img src="img/juegaAhora.png">
+			</div>
+			<div class="over">
+				<img src="img/juegaAhoraOver.png">
+			</div>
+		</div>
+		<div class="personajes">
+			<img src="img/personajes.png">
+		</div>
+	</div>
+	<div class="eligeAvatar">
+		<div class="botonesSexo">
+			<div class="boton activeOn" id="botonHombre">
+				<div class="base">
+					<img src="img/botonHombre.jpg">
+				</div>
+				<div class="over">
+					<img src="img/botonHombreOver2.jpg">
+				</div>
+				<div class="activo">
+					<img src="img/botonHombreOver.jpg">
+				</div>
+			</div>
+			<div class="boton activeOff" id="botonMujer">
+				<div class="base">
+					<img src="img/botonMujer.jpg">
+				</div>
+				<div class="over">
+					<img src="img/botonMujerOver2.jpg">
+				</div>
+				<div class="activo">
+					<img src="img/botonMujerOver.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="avatarThu">
+
+		</div>
+
+		<div class="baseAvatar">
+			<div class="avatar"></div>
+			<div class="navegarAvatar">
+				<div class="flechita" id="fi">
+					<div class="baseF"><img src="img/fi.png"></div>
+					<div class="overF"><img src="img/fiOver.png"></div>
+				</div>
+				<div class="flechita" id="fd">
+					<div class="baseF"><img src="img/fd.png"></div>
+					<div class="overF"><img src="img/fdOver.png"></div>
+				</div>
+			</div>
+		</div>
+		<form class="fomrularioAavatar">
+			<div class="error">
+				<div class="btinput campoNombre">
+					<input type="text" name="nombre" placeHolder='Nombre'>
+				</div>
+			</div>
+			<div>
+				<div class="btinput campoApellido" >
+					<input type="text" name="apellido" placeHolder='Apellidos'>
+				</div>
+			</div>
+			<div>
+				<div class="btinput campoEdad">
+					<input type="text" name="edad" placeHolder='Edad'>
+				</div>
+			</div>
+			<div>
+				<div class="btinput campoColegio">
+					<input type="text" name="colegio" placeHolder='Colegio'>
+				</div>
+			</div>
+			<div class="selectcheck">
+				<div class="bglist">
+					<span class="listselect"></span>
+				</div>
+				<select name="Colegio" id="">
+					<option value="">1ero de secundaria</option>
+					<option value="">2do de secundaria</option>
+					<option value="">3ero de secundaria</option>
+					<option value="">4to de secundaria</option>
+					<option value="">5to de secundaria</option>
+				</select>
+			</div>
+		</form>
+		<div class="clear"></div>
+		<div class="box_terms">
+			<div class="box_check">
+				<input type="checkbox" value="none" id="checkterms" name="check" />
+				<label for="box_check"></label>
+			</div>
+			<p>Acepto los <a href="#" class="link_terms">Términos y Condiciones</a></p>
+		</div>
+		<div class="boton activeOff" id="botonAvatar">
+			<div class="base">
+				<img src="img/botonSiguiente.png">
+			</div>
+			<div class="over">
+				<img src="img/botonSiguienteOver.png">
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<img src="img/logoFooter.jpg">
+		<img class="titulocomparte" src="img/comparteloFooter.jpg">
+		<section class="redes">
+			<div class="red">
+				<div class="baseRed"><img src="img/logoTwitter.jpg"></div>
+				<div class="overRed"><img src="img/logoTwitterOver.jpg"></div>
+			</div>
+			<div class="red">
+				<div class="baseRed"><img src="img/logoFacebook.jpg"></div>
+				<div class="overRed"><img src="img/logoFacebookOver.jpg"></div>
+			</div>
+		</section>
+	</footer>
+</section>
+</body>
+</html>
